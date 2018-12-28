@@ -15,6 +15,7 @@
 		34EE6F9D21D0F01100C88834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EE6F9B21D0F01100C88834 /* LaunchScreen.storyboard */; };
 		34EE6FA821D0F01200C88834 /* ShootOffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EE6FA721D0F01200C88834 /* ShootOffTests.swift */; };
 		34EE6FB321D0F01200C88834 /* ShootOffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EE6FB221D0F01200C88834 /* ShootOffUITests.swift */; };
+		34EE6FC121D0F2A000C88834 /* tracker.png in Resources */ = {isa = PBXBuildFile; fileRef = 34EE6FC021D0F2A000C88834 /* tracker.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		34EE6FAE21D0F01200C88834 /* ShootOffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShootOffUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34EE6FB221D0F01200C88834 /* ShootOffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootOffUITests.swift; sourceTree = "<group>"; };
 		34EE6FB421D0F01200C88834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34EE6FC021D0F2A000C88834 /* tracker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tracker.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				34EE6F9421D0F01000C88834 /* ViewController.swift */,
 				34EE6F9621D0F01000C88834 /* Main.storyboard */,
 				34EE6F9921D0F01100C88834 /* Assets.xcassets */,
+				34EE6FC021D0F2A000C88834 /* tracker.png */,
 				34EE6F9B21D0F01100C88834 /* LaunchScreen.storyboard */,
 				34EE6F9E21D0F01200C88834 /* Info.plist */,
 			);
@@ -236,6 +239,7 @@
 				34EE6F9D21D0F01100C88834 /* LaunchScreen.storyboard in Resources */,
 				34EE6F9A21D0F01100C88834 /* Assets.xcassets in Resources */,
 				34EE6F9821D0F01000C88834 /* Main.storyboard in Resources */,
+				34EE6FC121D0F2A000C88834 /* tracker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A8SA62ZA26;
 				INFOPLIST_FILE = ShootOff/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A8SA62ZA26;
 				INFOPLIST_FILE = ShootOff/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
